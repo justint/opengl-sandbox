@@ -1,9 +1,9 @@
 #include <GL/glut.h>
-#include <GL/glew.h>          
+
 
 static void RenderSceneCB();
 
-int main(int argc, char** argv)
+void cmain(int argc, char** argv)
 {
 	// Initialize GLUT, taking in args from main() so special GLUT commands may be used.
 	glutInit(&argc, argv);
@@ -18,7 +18,7 @@ int main(int argc, char** argv)
 
 	// Configure dimensions of and produce window.
 	glutInitWindowSize(800, 600);
-	glutInitWindowPosition(400, 600); // Not sure if this is required but following tut soo
+	glutInitWindowPosition(0, 0); // Not sure if this is required but following tut soo
 	glutCreateWindow("Sandbox");
 
 	// See documention for RenderSceneCB() later in this source.
