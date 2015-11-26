@@ -1,5 +1,5 @@
 #include <GL/glut.h>
-//#include <GL/glew.h>          <--- to install
+#include <GL/glew.h>          
 
 static void RenderSceneCB();
 
