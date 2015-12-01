@@ -1,7 +1,13 @@
+#ifdef WIN32
+#include <windows.h>
 #include <GL/glut.h>
+#endif
 
+#ifdef __APPLE__
+#include <GLUT/glut.h>
+#endif
 
-static void RenderSceneCB();
+static void RenderSceneCB(); // 
 
 void cmain(int argc, char** argv)
 {
