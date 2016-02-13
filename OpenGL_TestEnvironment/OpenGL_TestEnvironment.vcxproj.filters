@@ -29,6 +29,7 @@
     <None Include="glew32.dll">
       <Filter>Resource Files</Filter>
     </None>
+    <None Include="..\README.md" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="math_3d.h">

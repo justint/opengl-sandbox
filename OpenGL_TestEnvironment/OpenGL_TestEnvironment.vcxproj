@@ -78,6 +78,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\..\..\..\Downloads\freeglut-MSVC-3.0.0-2.mp\freeglut\bin\freeglut.dll" />
+    <None Include="..\README.md" />
     <None Include="glew32.dll" />
   </ItemGroup>
   <ItemGroup>
